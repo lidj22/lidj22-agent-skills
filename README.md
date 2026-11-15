@@ -2,6 +2,8 @@
 
 My public skills, plugins, and extensions for coding agents.
 
+Read project [AGENTS.md](AGENTS.md) for contribution guidelines.
+
 Specifications:
 
 - Claude plugin manifest: https://code.claude.com/docs/en/plugins-reference
