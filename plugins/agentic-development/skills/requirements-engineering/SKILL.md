@@ -1,48 +1,37 @@
 ---
 name: requirements-engineering
-description: Establish, review, or resume requirements for a bounded owner-led engineering decision. Use when requirements engineering is requested, requirements must be defined for design, or consequential ambiguity affects required behavior, scope, or decision authority. Do not invoke for general research, explanation, or routine implementation with clear requirements.
+description: Elicit, analyze, specify, verify, validate, and maintain requirements for owner-led engineering decisions.
 ---
 
 # Requirements engineering
 
-Produce or maintain a requirements record that preserves the owner's intended result and supports the decision at hand. Work at the level of detail that decision needs. Research and design exploration may inform requirements; they do not establish the owner's intent or authorize implementation.
+This skill supports a requirements record from an initial need through stakeholder validation and later change. Its work products are decision context, candidate requirements, review findings, and maintained requirements with inspectable source relationships. The [user guide](references/user-guide.md) describes invocation, inputs, outputs, and scope.
 
-## Establish the working boundary
+## Common language
 
-Identify the assignment, intended use of the requirements, relevant stakeholders, system boundary, and constraints from available sources. A complete problem statement is not a prerequisite: distinguish established context from proposed interpretations and gaps.
+- **Need:** a stakeholder difficulty or desired outcome.
+- **Requirement:** a needed behavior, quality, or constraint serving a need.
+- **Requirements record:** the issue, document, or linked artifacts holding requirements and their current disposition.
+- **Source:** evidence or a stakeholder statement, including its qualifications.
+- **Interpretation:** a derived meaning or assumption, distinct from its source.
+- **Authority:** the person or mandate entitled to establish a requirement or decision.
+- **Disposition:** proposed, established, unresolved, or explicitly accepted for a stated purpose.
+- **Verification:** checking the requirements record for defects and source fidelity.
+- **Validation:** checking with relevant stakeholders whether the requirements represent their needs in use.
 
-Read the relevant source passages, existing requirements, project rules, and authorization before asking for information. Retrieve accessible missing context. When establishing or reconsidering requirements, read [Problem framing and requirements derivation](references/problem-framing.md) to connect stakeholder difficulties to required outcomes and resolve consequential interpretation gaps.
+## Identify the assignment
 
-Distinguish facts you can investigate, choices requiring the owner's judgment, and provisional assumptions that let useful work continue. Ask now when unresolved alternatives materially affect the decision at hand and the available evidence cannot resolve them. Explain the consequence of the choice; keep downstream detail open until it matters. A provisional assumption supports a proposal, not an established requirement or authority to act.
+Match the requested result and the available artifacts to the cases below. These are entry points, not a mandatory lifecycle sequence. Read the selected reference and [record discipline](references/record-discipline.md) for requirements work; load additional methods only when the artifact needs them.
 
-Use an established authoritative issue, document, or linked artifacts as the requirements record where possible. If authority is not established, propose the existing or new artifact to maintain; do not promote a working draft to authority merely by selecting it. Identify its location and status for continuation. Maintain one operative account; use source control or the appropriate change record for history. Keep private session identifiers and incidental conversation details out of reusable requirements.
+| Request or artifact condition | Assignment and reference | Work product |
+|---|---|---|
+| A difficulty, goal, or proposed feature lacks a clear need or boundary | [Problem framing](references/problem-framing.md) | Decision context and candidate outcomes |
+| Needed stakeholder or domain information is missing | [Elicitation](references/elicitation.md) | Source-grounded findings and consequential open questions |
+| Notes need to become requirements, or requirements conflict or lack precision | [Analysis and specification](references/analysis-specification.md) | Requirements with rationale, assumptions, and unresolved choices |
+| An existing record needs checking for ambiguity, inconsistency, omissions, or unsupported claims | [Verification](references/review.md#verification) | Findings tied to affected requirements and consequences |
+| The question is whether proposed requirements address stakeholders' actual needs | [Validation](references/review.md#validation) | Stakeholder feedback and recorded agreement or disagreement |
+| Work is resumed, a source changes, or a requirement is corrected | [Change and continuation](references/change-continuation.md) | Recovered state and affected requirements updated or flagged |
 
-## Preserve meaning and authority
+For a generic “review,” use verification for document defects and validation for fit to stakeholder needs; combine them when both are requested. For a mixed assignment, address the blocking artifact gap first and retain the requested result. If plausible assignments imply materially different work and context does not resolve them, ask which result is wanted.
 
-Keep these distinctions inspectable wherever they affect a decision:
-
-- **Source:** the statement or evidence and enough context to recover its intended meaning. A link alone may be insufficient.
-- **Requirement:** a needed behavior, quality, or constraint connected to the need it serves.
-- **Interpretation:** a conclusion drawn from sources. Give the basis for material derivations; identify assumptions and alternatives that change the result.
-- **Authority:** the person or mandate that can establish the requirement or make the decision. Authorship and confidence are not authority.
-- **Disposition:** whether a statement is proposed, established by an applicable instruction or authorized decision, unresolved, or explicitly accepted for its stated purpose.
-
-Use the project's vocabulary consistently. Preserve qualifications, boundaries, and exceptions when translating a source into requirements. Do not turn an illustrative example into an exhaustive rule or an agent recommendation into an owner requirement. Make legitimate derived requirements available as proposals. Preserve the criterion attached to a delegated decision: permission to choose does not supply evidence that an option meets it. Investigate missing evidence where possible; otherwise expose the dependency or propose a provisional choice with its basis. Record explicit adoption or acceptance only when supported by evidence.
-
-## Deliver the assigned work product
-
-**Establish:** Produce a requirements record adequate for the bounded decision. Include the relevant decision context, required behavior and qualities, material source and authority relationships, open matters and their consequences, and current disposition. Use whatever structure makes those relationships easy to inspect; do not impose headings or a schema when existing artifacts suffice.
-
-**Review:** Inspect the record against its intended use and source meaning. Identify consequential omissions, contradictions, unsupported interpretations, ambiguity, and authority gaps. Attach each finding to the affected statement or relationship, explain its consequence, and distinguish a correction supported by evidence from a proposed choice. State what the record currently supports. Review findings do not automatically amend or establish requirements.
-
-**Resume or correct:** Recover the authoritative record, relevant sources, current requirements, and outstanding work. Do not infer acceptance from missing history. Trace corrections through dependent requirements, interpretations, examples, and readiness claims. Apply changes within the existing grant; present changes requiring additional authority separately. Flag affected dependencies that cannot yet be resolved rather than leaving them apparently settled.
-
-Keep open matters connected to the decisions they affect. Separate an unknown fact that can be investigated from a choice requiring the owner's judgment. Reuse shared provenance where it remains clear; avoid repeating metadata for its own sake. State the overall draft disposition once and add local qualifications only where their omission would change a decision.
-
-## Bound completion and acceptance
-
-Complete the assigned work when its work product is available, material relationships can be inspected, and its disposition accurately reflects the evidence. An explicitly requested draft can be complete as a draft. If a dependency prevents completion, deliver useful partial work and identify the dependency, consequence, and remaining work; do not claim the blocked assignment is complete.
-
-Report the record's location, supported next decision, and consequential unresolved matters so a successor can continue. Keep required outcomes separate from proposed designs. Design discoveries may reopen requirements without turning RE into an implementation or runtime-control system.
-
-The owner accepts by inspection and an explicit decision. Agent review and task completion do not substitute for acceptance. This skill grants no permission to edit, publish, implement, or accept beyond the user's existing authorization. Do not create evaluation infrastructure, scoring, benchmarks, or an additional acceptance gate as a prerequisite to this work.
+General explanation, standalone research, and implementation with settled requirements stay with their normal task workflow. A consequential requirements gap within those tasks enters the applicable case above; it does not convert the whole assignment into RE.
