@@ -22,10 +22,16 @@ Work from the problem and analysis through options and comparison before settlin
 
 Check the argument: does the problem follow from the analysis; is action justified; were alternatives adequately considered; is project detail sufficient; do calculations hold; and does the comparison have supporting data? Check that the summary contains the essentials. Record stakeholder preliminary support and its scope where available; support is distinct from the owner's acceptance.
 
-Keep missing costs, benefits, stakeholder choices, and factual uncertainties explicit, with the decision each affects. Do not fabricate ROI, milestones, quantitative success criteria, or contingency percentages. A recommendation may be to investigate, defer, or continue the current course when the evidence warrants it. Follow [record discipline](record-discipline.md) for evidence, grants, and acceptance.
+## Decision-ready comparison
+
+Use sensitivity analysis when uncertain inputs or changed scope could alter the choice. Calculate the consequences supported by available quantities: a conditional estimate, range, incremental cost, or break-even condition. State the assumption beside the result and distinguish it from a supplier quote or an accepted forecast. Vary consequential uncertain inputs over supported cases or ranges, compare alternatives on the same basis, and identify whether or where the recommendation changes. When a switching point cannot be calculated, state the missing relationship or value that prevents it; an incomplete estimate need not prevent a useful comparison.
+
+When a decision rule is missing, offer a reasoned candidate using the stated goals, constraints, and available observations. Identify what would support proceeding, revising, or stopping and what decision remains with the owner. Use qualitative conditions where a numerical threshold lacks a defensible basis. Mark proposed thresholds, milestones, or choices as proposals rather than supplied facts or approvals. The owner should be able to assess the proposal without first designing it themselves.
+
+A recommendation may be to investigate, defer, or continue the current course when the evidence warrants it. Keep missing evidence and decisions explicit; do not fabricate costs, benefits, ROI or agreement. Follow [record discipline](record-discipline.md) for evidence, grants, and acceptance.
 
 ## Source and adaptation
 
-Original paraphrase adapted from Birgit Penzenstadler, [Requirements Engineering: Business Case Analysis](https://www.slideshare.net/slideshow/requirements-engineering-business-case-analysis/78078858), slides 4, 7–17, 24, 27. Report structure and checks come from the deck; bounded elaboration and treatment of authority/unknowns are this skill's agent-work adaptations.
+Original paraphrase adapted from Birgit Penzenstadler, [Requirements Engineering: Business Case Analysis](https://www.slideshare.net/slideshow/requirements-engineering-business-case-analysis/78078858), slides 4, 7–17, 24, 27. Report structure and checks come from the deck; bounded elaboration, conditional comparison, candidate decision rules, and treatment of authority/unknowns are this skill's agent-work adaptations.
 
 The author's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf) identifies the teaching materials as CC BY-SA 4.0. This adaptation is provided under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). No third-party illustrations or example projects are reproduced.

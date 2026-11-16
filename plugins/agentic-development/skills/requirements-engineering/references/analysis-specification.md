@@ -14,7 +14,9 @@ Resolve conflicts by identifying the statements, conditions, affected stakeholde
 
 ## Specify for the decision
 
-State required behavior in its applicable conditions and retain the quality that makes it useful. Identify how fulfillment could be observed at the level currently needed. Use supplied or agreed bounds; leave missing thresholds explicit rather than inventing precision.
+Preserve applicability when deriving a requirement: who or what it governs, the operating conditions, the triggering event, and any exceptions or bounds. Compare the resulting obligation with its source before carrying it into examples or decision gates. An extension to another actor, mode, or condition is a proposed requirement needing its own rationale and authority, even when the extension seems prudent.
+
+State the observable behavior or quality needed for the decision. Retain supplied or agreed bounds with their conditions. Where a satisfaction criterion is missing, distinguish an unknown fact from a choice to be proposed: construct a candidate criterion tied to the stated need, separating the observation that supports it from the proposed value judgment or tradeoff. Leave its approval explicit. A qualitative criterion must identify an observable outcome and how satisfaction would be judged, not merely call it acceptable. Leave a parameter unresolved when neither evidence nor a defensible proposal supplies it.
 
 Keep scope, rationale, source relationships, assumptions, and unresolved decisions inspectable. Prioritization follows stakeholder goals and constraints; agent recommendations retain their proposed status. A requirement's source can be shared with related requirements when the relationship remains clear.
 

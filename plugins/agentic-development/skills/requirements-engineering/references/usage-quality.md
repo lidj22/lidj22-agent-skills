@@ -23,7 +23,7 @@ Classify statements labeled non-functional by the content they govern:
 | System constraints | What system-related restrictions apply, including mandated technologies? |
 | Quality requirements | What quality must the system exhibit, for whom, and under which conditions? |
 
-Derive quality requirements from system goals through concrete scenarios. Specify the relevant behavior or property, conditions, rationale, satisfaction criterion, measurement approach, and risk if unsatisfied. Establish bounds from sources or an authorized decision; preserve missing evidence as a gap. Inspect crosscutting effects on other behavior and stakeholder concerns. A feature intended to improve usability is a possible means, not proof of the required usability.
+Derive quality requirements from system goals through concrete scenarios. Specify the relevant behavior or property, conditions, rationale, satisfaction criterion, measurement approach, and risk if unsatisfied. Retain bounds established by sources or an authorized decision. For a missing satisfaction criterion, apply [specification for the decision](analysis-specification.md#specify-for-the-decision) to distinguish evidence gaps from criteria that can be proposed. Inspect crosscutting effects on other behavior and stakeholder concerns. A feature intended to improve usability is a possible means, not proof of the required usability.
 
 ## Quality assurance of artifacts
 

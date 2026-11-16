@@ -10,7 +10,13 @@ For a continuation without changed evidence, resume the unresolved artifact work
 
 ## Propagate a change
 
-Identify the premise or requirement changed by new evidence. Use the [content model](content-model.md) when dependencies span artifacts or abstraction layers, and [process foundations](foundations.md) when architecture discoveries require requirements refinement. Inspect dependent requirements, assumptions, scenarios, examples, and readiness claims. Distinguish supersession from a source that merely adds a case or qualifies an earlier statement.
+Apply change impact analysis to identify the changed premise and the artifacts whose decisions depend on it. Re-enter the relevant artifact methods before propagating the result:
+
+- Where changed scope, costs, benefits, or alternative viability affect the business-case decision, use [business case](business-case.md) to revise the comparison and recommendation.
+- Changed obligations, applicability, or satisfaction criteria: use [analysis and specification](analysis-specification.md) to revise the requirement and its decision basis.
+- Architecture evidence that constrains requirements: use [process foundations](foundations.md) for the requirements–architecture interaction.
+
+Use the [content model](content-model.md) when dependencies span artifacts or abstraction layers. Inspect dependent requirements, assumptions, scenarios, examples, and readiness claims. Distinguish supersession from a source that merely adds a case or qualifies an earlier statement. An update is not complete merely because the new wording appears everywhere: account for its consequences for the decision the artifact supports.
 
 Apply supported corrections within the grant, preserve unaffected requirements, and present additional choices separately. Flag dependencies that are unavailable or cannot yet be resolved so they remain visibly unsettled. Revisit stakeholder validation when the change alters whose need is served or the outcome previously agreed.
 
