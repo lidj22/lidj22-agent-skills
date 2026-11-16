@@ -15,3 +15,7 @@ Outputs use the project's existing artifacts where suitable. A requirements reco
 The owner accepts by inspection and an explicit decision. A completed draft or agent review is not acceptance. Stakeholder validation can establish feedback and agreement within the stakeholder's authority; unresolved disagreement remains visible. Skill evaluation infrastructure, scoring, and benchmarks are not prerequisites for this work.
 
 Editing, publication, implementation, and acceptance follow the user's existing authorization. A request to review yields findings; a request to correct the record permits corrections within its scope. The skill does not extend that grant.
+
+## Course basis
+
+The [course map](course-map.md) identifies Penzenstadler’s teaching material and supported content. Start with [course foundations](course-foundations.md) for terminology and tailoring, and [content model](content-model.md) to locate missing information and its dependencies. A content model guides what to establish; the project determines document layout. Course-derived references carry their attribution and license. Owner acceptance and agent authorization rules are project adaptations.

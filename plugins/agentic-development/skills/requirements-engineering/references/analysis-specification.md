@@ -2,6 +2,8 @@
 
 The work product is a requirements record suitable for its intended decision. Its structure follows the project artifacts rather than a mandatory template.
 
+For artifact selection and dependencies, read [content model](content-model.md). Use [usage and quality](usage-quality.md) for interaction models and requirement categories, and [course foundations](course-foundations.md) for refinement, decomposition, or Twin Peaks.
+
 ## Analyze the material
 
 Connect candidate requirements to needs and sources using the problem-framing reference when that relationship is unresolved. Separate behavior, qualities, constraints, assumptions, and design proposals. Preserve mandated solution constraints as constraints.
@@ -16,4 +18,4 @@ State required behavior in its applicable conditions and retain the quality that
 
 Keep scope, rationale, source relationships, assumptions, and unresolved decisions inspectable. Prioritization follows stakeholder goals and constraints; agent recommendations retain their proposed status. A requirement's source can be shared with related requirements when the relationship remains clear.
 
-The record supports the next decision when its consequential meanings and unresolved choices are visible. Internal quality checking uses verification; confirming fit to stakeholder needs uses validation. Neither requires implementation or a formal skill evaluation.
+The record supports the next decision when its consequential meanings and unresolved choices are visible. Internal quality checking uses requirements QA; confirming fit to stakeholder needs uses validation. Neither requires implementation or a formal skill evaluation.

@@ -2,7 +2,9 @@
 
 A review produces findings and an account of what the record supports. Findings do not automatically amend requirements or establish acceptance.
 
-## Verification
+## Requirements QA
+
+Read the QA guidance in [usage and quality](usage-quality.md) for the course criteria and constructive/analytical distinction. When reviewing coverage or cross-artifact consistency, also use the [content model](content-model.md) to identify relevant relationships.
 
 Check the record against its intended use and source evidence. Inspect ambiguous meanings, contradictions, omitted conditions or qualities, unsupported derivations, lost qualifications, and authority gaps. Follow material dependencies rather than checking each sentence in isolation.
 
@@ -17,3 +19,7 @@ Identify the stakeholders whose needs or decisions the requirements represent. P
 Record stakeholder feedback with its source, scope, and authority. Trace disagreement or changed understanding to affected requirements. Keep unconfirmed interpretations proposed. If stakeholders are unavailable, produce a validation agenda and the open questions; agent simulation is preparation, not stakeholder confirmation.
 
 A stakeholder's agreement supports the claims within their authority. Preserve disagreements and outstanding validation needs. Owner acceptance remains an explicit decision separate from the agent's completion of the review.
+
+## Course terminology
+
+Penzenstadler’s [Quality Assurance lecture](https://www.slideshare.net/slideshow/requirements-engineering-quality-assurance/78079094), slide 7, uses validation for requirements against stakeholder intent and verification for systems against requirements. Document review here is requirements QA. System verification belongs to the applicable implementation/testing workflow; this skill can clarify the requirements and evidence that workflow needs.

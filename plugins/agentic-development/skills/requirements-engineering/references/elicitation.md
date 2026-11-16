@@ -4,7 +4,7 @@ The work product is evidence about stakeholder needs and the consequential gaps 
 
 ## Select evidence by the gap
 
-Recover known context and sources first. Identify whose work, interests, authority, or constraints are represented and which consequential perspective is missing. Treat candidate stakeholders as candidates until their relevance is established.
+Recover known context and sources first. Use [context artifacts](context-artifacts.md) when discovering stakeholders, goals, domain concepts, or a system vision; use [usage and quality](usage-quality.md) when the gap concerns interactions or quality expectations. Identify whose work, interests, authority, or constraints are represented and which consequential perspective is missing. Treat candidate stakeholders as candidates until their relevance is established.
 
 | Gap | Useful evidence |
 |---|---|

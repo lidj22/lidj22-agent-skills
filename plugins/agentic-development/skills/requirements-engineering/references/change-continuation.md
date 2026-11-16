@@ -10,7 +10,7 @@ For a continuation without changed evidence, resume the unresolved artifact work
 
 ## Propagate a change
 
-Identify the premise or requirement changed by new evidence. Inspect dependent requirements, assumptions, scenarios, examples, and readiness claims. Distinguish supersession from a source that merely adds a case or qualifies an earlier statement.
+Identify the premise or requirement changed by new evidence. Use the [content model](content-model.md) when dependencies span artifacts or abstraction layers, and [course foundations](course-foundations.md) when architecture discoveries require requirements refinement. Inspect dependent requirements, assumptions, scenarios, examples, and readiness claims. Distinguish supersession from a source that merely adds a case or qualifies an earlier statement.
 
 Apply supported corrections within the grant, preserve unaffected requirements, and present additional choices separately. Flag dependencies that are unavailable or cannot yet be resolved so they remain visibly unsettled. Revisit stakeholder validation when the change alters whose need is served or the outcome previously agreed.
 
