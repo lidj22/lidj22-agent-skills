@@ -20,4 +20,4 @@ State the observable behavior or quality needed for the decision. Retain supplie
 
 Keep scope, rationale, source relationships, assumptions, and unresolved decisions inspectable. Prioritization follows stakeholder goals and constraints; agent recommendations retain their proposed status. A requirement's source can be shared with related requirements when the relationship remains clear.
 
-The record supports the next decision when its consequential meanings and unresolved choices are visible. Internal quality checking uses requirements QA; confirming fit to stakeholder needs uses validation. Neither requires implementation or a formal skill evaluation.
+The record supports the next decision when its consequential meanings and unresolved choices are visible. Internal quality checking uses requirements QA; confirming fit to stakeholder needs uses validation. Neither requires implementation.

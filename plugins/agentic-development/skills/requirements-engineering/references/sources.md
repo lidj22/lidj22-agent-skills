@@ -28,7 +28,7 @@ The index links source topics to their operational references. Reference selecti
 
 ## Project adaptations
 
-The bounded owner-led scope, agent authorization boundaries, privacy rules, and owner inspection as skill acceptance are project rules. They are not claims about what the course universally requires. Stakeholder validation concerns the engineering requirements; owner acceptance of this skill concerns the skill itself. A system satisfaction criterion is not a skill-evaluation score.
+The bounded owner-led scope, agent authorization boundaries, and privacy rules are project rules. They are not claims about what the course universally requires.
 
 The references adapt the course to flexible existing issues, documents, and linked artifacts. Content and relationships remain explicit even when the project does not use the course's document layouts. Course examples, thresholds, and assignment quotas do not become project requirements.
 

@@ -12,7 +12,7 @@ Supply the decision or intended use when known, relevant source material, existi
 
 Outputs use the project's existing artifacts where suitable. A requirements record connects context and needs to required behavior, qualities, constraints, sources, open matters, and disposition. A review identifies affected statements and their consequences. A continuation preserves settled information while exposing the consequences of new evidence.
 
-The owner accepts by inspection and an explicit decision. A completed draft or agent review is not acceptance. Stakeholder validation can establish feedback and agreement within the stakeholder's authority; unresolved disagreement remains visible. Skill evaluation infrastructure, scoring, and benchmarks are not prerequisites for this work.
+The owner accepts by inspection and an explicit decision. A completed draft or agent review is not acceptance. Stakeholder validation can establish feedback and agreement within the stakeholder's authority; unresolved disagreement remains visible.
 
 Editing, publication, implementation, and acceptance follow the user's existing authorization. A request to review yields findings; a request to correct the record permits corrections within its scope. The skill does not extend that grant.
 
