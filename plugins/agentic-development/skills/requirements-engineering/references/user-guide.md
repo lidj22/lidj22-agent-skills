@@ -16,6 +16,6 @@ The owner accepts by inspection and an explicit decision. A completed draft or a
 
 Editing, publication, implementation, and acceptance follow the user's existing authorization. A request to review yields findings; a request to correct the record permits corrections within its scope. The skill does not extend that grant.
 
-## Course basis
+## References
 
-The [course map](course-map.md) identifies Penzenstadler’s teaching material and supported content. Start with [course foundations](course-foundations.md) for terminology and tailoring, and [content model](content-model.md) to locate missing information and its dependencies. A content model guides what to establish; the project determines document layout. Course-derived references carry their attribution and license. Owner acceptance and agent authorization rules are project adaptations.
+Use [process foundations](foundations.md) for process choices and tailoring, and the [content model](content-model.md) to locate missing information and dependencies. The content model guides what to establish; the project determines document layout. Consult [sources and attribution](sources.md) for source material, terminology provenance, and licenses.

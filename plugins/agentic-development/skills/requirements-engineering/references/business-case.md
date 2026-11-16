@@ -1,10 +1,10 @@
 # Business case
 
-Use this reference when the decision concerns why to undertake an initiative, which alternative merits investment, or what evidence is missing for that decision. First read any existing business case: RE can receive this artifact rather than create it (course slide 27). Elaborate only the sections needed for the assigned decision; do not invent a complete investment proposal to fill a template.
+Use this reference when the decision concerns why to undertake an initiative, which alternative merits investment, or what evidence is missing for that decision. First read any existing business case: requirements work can receive this artifact rather than create it. Elaborate only the sections needed for the assigned decision; do not invent a complete investment proposal to fill a template.
 
 ## Develop the argument
 
-The course treats a business case as an argument to a decision maker, with a specific report structure (slides 4, 7–17):
+Build the business case as an argument to the decision maker. Use this report structure, elaborating each section to the depth needed for the decision:
 
 | Report section | Work to perform and result to retain |
 | --- | --- |
@@ -20,9 +20,9 @@ Work from the problem and analysis through options and comparison before settlin
 
 ## Check the decision support
 
-Apply the course checklist (slide 24): does the problem follow from the analysis; is action justified; were alternatives adequately considered; is project detail sufficient; do calculations hold; and does the comparison have supporting data? Check that the summary contains the essentials. Record stakeholder preliminary support and its scope where available; support is distinct from the owner's acceptance.
+Check the argument: does the problem follow from the analysis; is action justified; were alternatives adequately considered; is project detail sufficient; do calculations hold; and does the comparison have supporting data? Check that the summary contains the essentials. Record stakeholder preliminary support and its scope where available; support is distinct from the owner's acceptance.
 
-Keep missing costs, benefits, stakeholder choices, and factual uncertainties explicit, with the decision each affects. Do not fabricate ROI, milestones, quantitative success criteria, or contingency percentages. The course's illustrative contingency advice is not a default requirement. A recommendation may be to investigate, defer, or continue the current course when the evidence warrants it; this is an adaptation for decision support rather than a presumption that the project must proceed. Follow [record discipline](record-discipline.md) for evidence, grants, and acceptance.
+Keep missing costs, benefits, stakeholder choices, and factual uncertainties explicit, with the decision each affects. Do not fabricate ROI, milestones, quantitative success criteria, or contingency percentages. A recommendation may be to investigate, defer, or continue the current course when the evidence warrants it. Follow [record discipline](record-discipline.md) for evidence, grants, and acceptance.
 
 ## Source and adaptation
 

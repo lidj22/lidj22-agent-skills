@@ -1,41 +1,39 @@
 # Artifact and content model
 
-Read this reference when deciding what a requirements record needs to contain, tracing a changed premise, or checking whether a draft covers the relevant abstraction levels. Use [course-foundations.md](course-foundations.md) for process choices and tailoring.
+Read this reference when deciding what a requirements record needs to contain, tracing a changed premise, or checking whether a draft covers the relevant abstraction levels. Use [process foundations](foundations.md) for process choices and tailoring.
 
 ## Content is not a document outline
 
-In the course, an **artifact** is a work result with structure, content, and a representation; an **artifact model** relates artifacts and their dependencies. A structure model arranges documents, packages, or sections. A content model identifies the information and concepts that must relate meaningfully. Representation is how that information is expressed, such as prose or a diagram. The reference model and a project's actual artifact instances are distinct. [A, slides 3–6]
+An **artifact** is a work result with structure, content, and a representation; an **artifact model** relates artifacts and their dependencies. A structure model arranges documents, packages, or sections. A content model identifies the information and concepts that must relate meaningfully. Representation is how that information is expressed, such as prose or a diagram. The reference model and a project's actual artifact instances are distinct.
 
-Operational adaptation: an issue, decision note, model, or specification may hold relevant content. One document can contain several kinds of content, and one logical artifact can span several records. Choose a readable representation; a populated template is not proof of adequate content.
+An issue, decision note, model, or specification may hold relevant content. One document can contain several kinds of content, and one logical artifact can span several records. Choose a readable representation; a populated template is not proof of adequate content.
 
 ## Three layers and three specification artifacts
 
-This is the **three-layer AMDiRE model shown in the course**, not a universal document hierarchy. The following inventory names the course's content areas; it does not require every project to elaborate every item. [A, slides 12–16]
+Apply the **three-layer AMDiRE model** to distinguish context, requirements, and system content. Select the content needed for the current decision; the layers do not prescribe a document hierarchy or require every item on every project.
 
-| Layer / artifact | Purpose | Content areas shown in the course |
+| Layer / artifact | Purpose | Content areas |
 | --- | --- | --- |
 | Context / Context Specification | Explain the setting, problem, motivations, and boundaries. | Project scope; constraints and rules; business case; stakeholder model; objectives and goals; domain model; glossary. |
 | Requirements / Requirements Specification | Describe the system's required contribution and externally relevant properties. | System vision; usage and service models; functional hierarchy; data model; system constraints; quality requirements; process requirements; deployment requirements; risk list; glossary. |
 | System / System Specification | Describe a technical realization sufficiently to relate design decisions to the requirements. | Architecture overview; function model; component model; data model; behaviour model; glossary. |
 
-Context and requirements form the model's problem space; system specification forms its solution space. **System vision belongs to the requirements layer** in this model. A data model can occur at different abstraction levels: avoid treating a domain concept, required information, and a technical data representation as interchangeable merely because all concern data. [A, slides 12–16; last sentence is operational interpretation]
-
-The course also uses a reduced classroom model containing system vision, stakeholder model, goal model, usage model, and quality requirements. That is an example of selecting content for a purpose, not an alternative mandatory minimum for this skill. [A, slide 21]
+Context and requirements form the model's problem space; system specification forms its solution space. **System vision belongs to the requirements layer** in this model. A data model can occur at different abstraction levels: avoid treating a domain concept, required information, and a technical data representation as interchangeable merely because all concern data.
 
 ## Maintain relationships that support a decision
 
-The following questions adapt the model's dependencies for bounded agent work. They are prompts for reasoning, not additional compulsory artifacts:
+Inspect the relationships relevant to the current decision:
 
 | Relationship | What to establish or inspect |
 | --- | --- |
 | Stakeholders, goals, business case, and scope | Whose difficulty matters, what outcome is sought, why addressing it is worthwhile, and what is inside the effort's boundary? Keep unsupported benefit claims visible as assumptions. |
 | Domain, rules, and requirements | What existing concepts, practices, interfaces, or constraints shape the required behavior? Distinguish an external rule from a proposed internal design. |
-| System vision and usage | What contribution should the system make, and what user interaction demonstrates that contribution? The course treats usage models as black-box behavior refining the vision. [R, slide 3] |
+| System vision and usage | What contribution should the system make, and what user interaction demonstrates that contribution? Usage models refine the vision through black-box behavior. |
 | Goals, usage, and quality | Under which conditions must the behavior be sufficiently good, for whom, and with what observable consequence? Do not invent target values to fill a quality field. |
 | Requirements and system design | Which design decision realizes or constrains which requirement? What feasibility finding requires returning to the requirements? Keep the intended outcome distinguishable from the selected mechanism. |
 | Changed content and dependent content | If a goal, rule, scenario, or design assumption changes, which related requirements and decisions need reconsideration? Inspect relevant dependencies rather than merely replacing the original sentence. |
 
-A business case concerns the reason to undertake the effort; a goal expresses a desired outcome; a system vision describes the intended system contribution; a usage model describes externally visible interaction. Collapsing them into a feature list loses different questions the model is intended to preserve. This explanation is an operational interpretation of the course model, not a mandated report format.
+A business case concerns the reason to undertake the effort; a goal expresses a desired outcome; a system vision describes the intended system contribution; a usage model describes externally visible interaction. Collapsing them into a feature list loses different questions the model is intended to preserve.
 
 ## Choose the next useful elaboration
 

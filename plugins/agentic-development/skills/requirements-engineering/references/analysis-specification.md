@@ -2,7 +2,7 @@
 
 The work product is a requirements record suitable for its intended decision. Its structure follows the project artifacts rather than a mandatory template.
 
-For artifact selection and dependencies, read [content model](content-model.md). Use [usage and quality](usage-quality.md) for interaction models and requirement categories, and [course foundations](course-foundations.md) for refinement, decomposition, or Twin Peaks.
+For artifact selection and dependencies, read [content model](content-model.md). Use [usage and quality](usage-quality.md) for interaction models and requirement categories, and [process foundations](foundations.md) for refinement, decomposition, or Twin Peaks.
 
 ## Analyze the material
 
