@@ -39,11 +39,4 @@ A business case concerns the reason to undertake the effort; a goal expresses a 
 
 Locate the current uncertainty in these relationships. If the beneficiary or intended outcome is unclear, deepen context. If the outcome is understood but behavior is ambiguous, examine usage and the relevant requirements. If feasibility depends on a technical choice, investigate the corresponding system-level question and feed the result back into requirements.
 
-These are decision cues, not a fixed progression. Work can begin from an existing design, a stakeholder account, or an incomplete specification. Preserve adequate existing content and make only the relevant missing relationships explicit. Owner acceptance remains the acceptance decision; this model supplies material for that decision rather than an automatic completeness score.
-
-## Sources and attribution
-
-- **A:** Birgit Penzenstadler, [Requirements Engineering — Artifact-oriented Requirements Engineering](https://www.slideshare.net/slideshow/requirements-engineering-artifactoriented-requirements-engineering/78078838), 2017, slides 3–6, 12–16, 21. Layer membership follows the individual layer diagrams on slides 14–16.
-- **R:** Birgit Penzenstadler, [Requirements Engineering — Recap](https://www.slideshare.net/slideshow/requirements-engineering-recap/78079402), 2017, slide 3.
-
-Original paraphrase and adaptations of the course material. Penzenstadler's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf) identifies the teaching materials as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This adapted reference is provided under that license. Operational questions and bounded agent-work guidance above are adaptations, not claims that the course prescribes this skill's workflow.
+These are decision cues, not a fixed progression. Work can begin from an existing design, a stakeholder account, or an incomplete specification. Preserve adequate existing content and make only the relevant missing relationships explicit. The model supplies material for the applicable decision; a populated model does not establish acceptance.

@@ -27,17 +27,8 @@ Derive quality requirements from system goals through concrete scenarios. Specif
 
 ## Quality assurance of artifacts
 
-Distinguish an invalid requirement, which misrepresents stakeholder intention, from a valid requirement with a quality defect such as ambiguity or missing measurability. Validation checks requirement correctness against stakeholder intention; verification checks a system's fulfillment of requirements. Checking the requirements document is requirements QA or review, not evidence that a system has been verified.
+Check both fidelity to stakeholder meaning and specification quality, including ambiguity or missing measurability. Use [requirements review](review.md) to distinguish requirements verification, system verification, and stakeholder validation by their objects and evidence. Checking a requirements document supplies no evidence that a system fulfills it.
 
 Apply constructive QA while producing artifacts: consistent concepts, suitable structure, trace links, and precise formulations. Apply analytical QA through examination or inspection of the artifact. Select criteria for its intended downstream use: completeness, consistency, unambiguity, correctness, structure, traceability, changeability, understandability, and stakeholder agreement. Seek counterexamples and missing cases; a review can expose incompleteness without proving universal completeness.
 
 Check individuals, sets, and artifacts: ambiguous terminology in one sentence; contradictory conditions across requirements; missing or inconsistent relationships between models. Report the affected content, evidence, consequence, and unresolved judgment.
-
-## Sources and adaptation
-
-Adapted in original prose from Birgit Penzenstadler's CECS 542 teaching materials. Selective elaboration and evidence and authority handling adapt the material to bounded agent-assisted work. These adaptations are offered under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), the course-material license stated in the author's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf). Third-party figures and example text are not reproduced.
-
-- U: [Usage Models](https://www.slideshare.net/slideshow/requirements-engineering-usage-models/78078950), slides 3–4, 7, 10–17.
-- N: [Classification of non-functional requirements](https://www.slideshare.net/slideshow/requirements-engineering-nonfunctional-requirements/78079011), slides 5, 13, 15–16, 18–20.
-- Q: [Quality Models](https://www.slideshare.net/slideshow/requirements-engineering-quality-models/78079027), slides 12–17.
-- A: [Quality Assurance](https://www.slideshare.net/slideshow/requirements-engineering-quality-assurance/78079094), slides 7–8, 11–21, 26–27.

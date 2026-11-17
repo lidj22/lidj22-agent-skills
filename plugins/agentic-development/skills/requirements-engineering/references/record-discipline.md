@@ -20,4 +20,4 @@ Connect each material open matter to the decision it affects. Separate an invest
 
 A work product is complete when it satisfies the assigned purpose and its material relationships and disposition are inspectable. A requested draft can be complete as a draft. For blocked work, provide the useful partial result, dependency, consequence, and remaining work. Identify the record's location and the next decision it supports.
 
-The owner accepts by inspection and explicit decision. Review, task completion, and absent history do not establish acceptance. Apply edits only within the existing grant. Design exploration can reveal requirements gaps; keep proposed designs separate from required outcomes.
+Acceptance follows the applicable authority, decision process, and existing grants. Review, task completion, and absent history do not establish acceptance. Honor settled decisions and delegated authority without introducing a reconfirmation gate. Design exploration can reveal requirements gaps; keep proposed designs separate from required outcomes.

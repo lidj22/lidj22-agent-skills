@@ -1,50 +1,44 @@
 ---
 name: requirements-engineering
-description: Elicit, analyze, specify, review, validate, and maintain requirements for owner-led engineering decisions.
+description: Elicit, analyze, document, verify, validate, and maintain requirements, including requirements scattered across conversations and assignments for coding agents.
 ---
 
 # Requirements engineering
 
-Develop decision context, candidate requirements, review findings, and maintained requirements with inspectable source relationships. Apply the AMDiRE content model to connect context, requirements, and system design through validation and change. The [user guide](references/user-guide.md) describes invocation, inputs, outputs, and scope.
+Connect stakeholder needs to requirements, development assignments, and evidence about the resulting work. Use the [user guide](references/user-guide.md) for invocation and expected results.
 
 ## Glossary
 
-- **Artifact:** a structured work product containing related content items.
-- **Content model:** the information and relationships to establish, independently of document layout.
-- **Need:** a stakeholder difficulty or desired outcome.
-- **Requirement:** a needed behavior, quality, or constraint serving a need.
-- **Requirements record:** the issue, document, or linked artifacts holding requirements and their current disposition.
-- **Source:** evidence or a stakeholder statement, including its qualifications.
-- **Interpretation:** a derived meaning or assumption, distinct from its source.
-- **Authority:** the person or mandate entitled to establish a requirement or decision.
-- **Disposition:** proposed, established, unresolved, or explicitly accepted for a stated purpose.
-- **Requirements QA:** checking requirements artifacts for quality defects.
-- **Verification:** checking whether a system fulfills its requirements.
-- **Validation:** checking with relevant stakeholders whether the requirements represent their needs in use.
+- **Stakeholder:** a party affected by the system or able to influence its requirements. Distinguish its needs, knowledge, and decision authority; an agent can also be a consumer or perform an engineering role.
+- **Need:** a difficulty or desired outcome for a stakeholder.
+- **Requirement:** a needed behavior, quality, or constraint serving a need. A proposed requirement retains that status until established by the applicable authority.
+- **Artifact:** a work product used as evidence or to communicate engineering information, including notes, models, specifications, and code.
+- **Elicitation:** obtaining requirements information from stakeholders and other sources.
+- **Analysis:** interpreting requirements information, examining conflicts and gaps, and deriving consequences and candidate requirements.
+- **Documentation:** recording requirements and their relevant relationships so others can use and maintain them.
+- **Verification:** checking an artifact or system against its stated basis. Requirements verification checks fidelity and specification quality; system verification checks fulfillment of requirements.
+- **Validation:** checking whether requirements or outcomes address stakeholders' actual needs in their context of use.
+- **Source:** an original statement or observation with its context. An interpretation is a meaning derived from it.
+- **Authority:** the person or mandate entitled to establish a requirement or decision. Disposition records whether content is proposed, established, unresolved, or accepted for a stated purpose.
+
+These activities recur throughout development. An agent may perform RE and implementation in one assignment; keep their results and evidence distinguishable.
 
 ## Identify the assignment
 
-Match the requested result and the available artifacts to the cases below. These are entry points, not a mandatory lifecycle sequence. Read the selected reference and [record discipline](references/record-discipline.md) for requirements work; load additional methods only when the artifact needs them.
+Match the requested result and observed situation. Read the selected method and [record discipline](references/record-discipline.md) for requirements work. Load further methods when their inputs or results are needed.
 
-| Request or artifact condition | Assignment and reference | Work product |
-|---|---|---|
-| Process setup, tailoring, abstraction level, or requirements–architecture interplay needs clarification | [Process foundations](references/foundations.md) and [content model](references/content-model.md) | Tailored artifact scope, roles, methods, tools, and milestones |
-| The justification for an undertaking or choice among alternatives is unclear | [Business case](references/business-case.md) | Business-case report with evidence, alternatives, and recommendation |
-| Stakeholders, goals, domain, or shared system vision need development | [Context artifacts](references/context-artifacts.md) and [content model](references/content-model.md) | Related context artifacts and system vision |
-| User interaction, quality expectations, or requirement categories need elaboration | [Usage and quality](references/usage-quality.md) | Usage model and differentiated quality, process, deployment, and system requirements |
-| A difficulty, goal, or proposed feature lacks a clear need or boundary | [Problem framing](references/problem-framing.md) | Decision context and candidate outcomes |
-| Needed stakeholder or domain information is missing | [Elicitation](references/elicitation.md) | Source-grounded findings and consequential open questions |
-| Notes need to become requirements, or requirements conflict or lack precision | [Analysis and specification](references/analysis-specification.md) | Requirements with rationale, assumptions, and unresolved choices |
-| An existing record needs checking for ambiguity, inconsistency, omissions, or unsupported claims | [Requirements QA](references/review.md#requirements-qa) | Findings tied to affected requirements and consequences |
-| The question is whether proposed requirements address stakeholders' actual needs | [Validation](references/review.md#validation) | Stakeholder feedback and recorded agreement or disagreement |
-| Work is resumed, a source changes, or a requirement is corrected | [Change and continuation](references/change-continuation.md) | Recovered state and affected requirements updated or flagged |
+| Situation | Method and result |
+| --- | --- |
+| A difficulty or proposed feature lacks a clear need, beneficiary, or boundary | [Problem framing](references/problem-framing.md): a grounded problem and candidate outcomes. Use [business case](references/business-case.md) when a choice needs investment justification. |
+| Requirements are scattered across conversations, issues, documents, or agent summaries | [Source consolidation](references/source-consolidation.md): a usable record with source meaning, authority, and unresolved interpretations preserved. |
+| A stakeholder's needs, operating conditions, or constraints are missing | [Elicitation](references/elicitation.md): findings from the relevant sources and targeted remaining questions. Use [context artifacts](references/context-artifacts.md) to discover stakeholders and relationships. |
+| Notes need to become requirements, or requirements conflict or lack precision | [Analysis and specification](references/analysis-specification.md): requirements, rationale, alternatives, and explicit open choices. Use [usage and quality](references/usage-quality.md) for interaction and quality requirements. |
+| A task prompt or delegated assignment needs checking against intent and available context | [Task analysis](references/task-analysis.md): a feasible assignment or concrete corrections, dependencies, and completion evidence. |
+| A document may misstate requirements, or delivered work may not meet them | [Review](references/review.md): identify the object being checked, compare with its basis, and report supported findings. |
+| Work is resumed, a source changes, or design evidence challenges a requirement | [Change and continuation](references/change-continuation.md): recover the work and revise affected decisions. Use [process foundations](references/foundations.md) for requirements–architecture interaction. |
+| A stakeholder needs to understand technical progress or decide whether an outcome meets their need | [Translation](references/task-analysis.md#translate-between-stakeholder-and-developer): a supported account of outcomes, gaps, and choices in the recipient's vocabulary; use [validation](references/review.md#validation) to establish fit. |
+| The request concerns RE terminology, process, or artifact relationships | Answer the conceptual question using this glossary, [process foundations](references/foundations.md), or the [content model](references/content-model.md). A conceptual answer need not produce project requirements. |
 
-When the required content or abstraction level is unclear, use the [content model](references/content-model.md) to locate the gap before choosing a method.
+For “this did not work,” determine what differs from what: implementation from an established requirement, a requirement from its source, or the delivered outcome from the stakeholder's need. Inspect the available record and evidence before selecting verification, analysis, or validation. Discovering an omitted stakeholder calls for elicitation and impact analysis.
 
-For a generic “review,” use requirements QA for document defects and validation for fit to stakeholder needs; combine them when both are requested. For a mixed assignment, address the blocking artifact gap first and retain the requested result. If plausible assignments imply materially different work and context does not resolve them, ask which result is wanted.
-
-System verification, general explanation, standalone research, and implementation with settled requirements stay with their normal task workflow. A consequential requirements gap within those tasks enters the applicable case above; it does not convert the whole assignment into RE.
-
-## Sources
-
-Consult [sources and attribution](references/sources.md) for terminology provenance and licenses.
+For mixed work, resolve the dependency that prevents the requested result and then resume that result. General research, explanation of an unrelated feature, and implementation with settled requirements use their applicable workflows. An RE gap within them enters the relevant method without transferring ownership of the whole task to this skill.

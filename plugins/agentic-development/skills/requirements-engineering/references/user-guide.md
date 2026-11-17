@@ -1,21 +1,28 @@
 # User guide
 
-Use requirements-engineering when deciding what an engineering effort must achieve, checking whether a requirements record is usable, or maintaining it after new information. The scope is bounded owner-led work; it is not a project-management, implementation, or runtime-control system.
+Use requirements-engineering to establish what an effort must achieve, make assignments usable, inspect whether work meets requirements, and maintain meaning as evidence changes. The same agent can perform RE and development; each activity retains its own purpose and evidence.
 
-## Requests and inputs
+## Requests and results
 
-A request can begin with an unclear need: “Help us work out what needs to change.” Existing work can be supplied with “Review these requirements” or “Continue from this issue and account for the new stakeholder message.” For stakeholder validation, ask “Help us check whether this meets the users' needs.”
+| Request | Useful result |
+| --- | --- |
+| “Work out what needs to change.” | Problem context, affected stakeholders, candidate requirements, and consequential choices. |
+| “Recover the requirements from these conversations and issues.” | A consolidated record with material source relationships, authority, and unresolved interpretations. |
+| “Check this task before I give it to an agent.” | Concrete prompt corrections, missing inputs or dependencies, and evidence needed for completion. |
+| “This does not do what we agreed.” | A comparison of the requirement and actual behavior, identifying whether the gap concerns implementation, specification, or the underlying need. |
+| “Explain what the implementation accomplishes.” | A stakeholder-readable account of outcomes supported by the implementation evidence and the remaining gaps. |
+| “Continue this work with the new stakeholder message.” | Recovered decisions and records, affected requirements and assignments updated or flagged. |
 
-Supply the decision or intended use when known, relevant source material, existing records, and available stakeholders. Missing information is part of the assignment, not a reason to invent a complete specification. The skill routes by the requested result and the gap in the available artifacts.
+Supply existing sources and artifacts when available. State the intended decision or deliverable when known. Missing information is part of the work: the agent retrieves accessible evidence and distinguishes investigable questions from stakeholder choices.
 
-## Outputs and decisions
+Outputs use the project's existing artifact structure. A useful requirements record connects needs to required behavior and qualities, source meaning, constraints, decisions, and unresolved matters. Its location and significant dependencies support continuation by another consumer.
 
-Outputs use the project's existing artifacts where suitable. A requirements record connects context and needs to required behavior, qualities, constraints, sources, open matters, and disposition. A review identifies affected statements and their consequences. A continuation preserves settled information while exposing the consequences of new evidence.
+## Decisions and boundaries
 
-The owner accepts by inspection and an explicit decision. A completed draft or agent review is not acceptance. Stakeholder validation can establish feedback and agreement within the stakeholder's authority; unresolved disagreement remains visible. Skill evaluation infrastructure, scoring, and benchmarks are not prerequisites for this work.
+Editing, publication, implementation, and acceptance follow the applicable project rules and existing authorization. Stakeholder feedback has scope and authority; a completed draft or agent review does not create acceptance. Already-settled decisions remain settled unless relevant evidence or authorized direction changes them.
 
-Editing, publication, implementation, and acceptance follow the user's existing authorization. A request to review yields findings; a request to correct the record permits corrections within its scope. The skill does not extend that grant.
+The skill supplies requirements methods and the requirements side of development handoffs. Development and orchestration workflows supply implementation, test execution, model selection, and runtime control. RE may reveal a missing requirement inside those workflows without taking over the entire assignment.
 
-## References
+## Further guidance
 
-Use [process foundations](foundations.md) for process choices and tailoring, and the [content model](content-model.md) to locate missing information and dependencies. The content model guides what to establish; the project determines document layout. Consult [sources and attribution](sources.md) for source material, terminology provenance, and licenses.
+The [entry point](../SKILL.md) routes assignments to methods. [Process foundations](foundations.md) supports tailoring and requirements–architecture investigation; the [content model](content-model.md) relates information across artifacts. Source material, terminology provenance, and adaptation notices are available in [sources](sources.md).

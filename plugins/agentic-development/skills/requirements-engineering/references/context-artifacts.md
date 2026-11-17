@@ -37,12 +37,3 @@ Combine the business case, stakeholder model, goals, and domain model into an ab
 Review the picture with the relevant stakeholders for a clear boundary, comprehensibility, and sufficient coverage. Establish a shared vision through agreement among active stakeholders. Label an unreviewed or contested version as a proposed vision and retain disagreements. An agent's synthesis does not establish agreement.
 
 **Output:** a communicable vision and its agreement status, plus implications for the usage model, quality requirements, and risk list. Feed newly discovered concepts back into the domain model and missing viewpoints back into stakeholder work.
-
-## Sources and attribution
-
-- [Stakeholders](https://www.slideshare.net/slideshow/requirements-engineering-stakeholders/78078882), slides 4–6, 8–12, 16–18.
-- [Goals](https://www.slideshare.net/slideshow/requirements-engineering-goals/78078900), slides 6–7, 11–17, 20, 23–28, 31, 38–41.
-- [Domain Models](https://www.slideshare.net/slideshow/requirements-engineering-domain-models/78078947), slides 3–7, 12, 15, 17–18.
-- [System Vision](https://www.slideshare.net/slideshow/requirements-engineering-system-vision/78078930), slides 5, 9, 11, 20, 26–29.
-
-Original paraphrase adapted from Birgit Penzenstadler's linked Requirements Engineering decks. Course artifact content and relationships are retained; selective elaboration, explicit unresolved evidence, and authority handling adapt them to agent work. The author's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf) identifies the teaching materials as CC BY-SA 4.0. This adaptation is provided under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). No third-party diagrams or student examples are reproduced.

@@ -20,7 +20,7 @@ Work from the problem and analysis through options and comparison before settlin
 
 ## Check the decision support
 
-Check the argument: does the problem follow from the analysis; is action justified; were alternatives adequately considered; is project detail sufficient; do calculations hold; and does the comparison have supporting data? Check that the summary contains the essentials. Record stakeholder preliminary support and its scope where available; support is distinct from the owner's acceptance.
+Check the argument: does the problem follow from the analysis; is action justified; were alternatives adequately considered; is project detail sufficient; do calculations hold; and does the comparison have supporting data? Check that the summary contains the essentials. Record stakeholder preliminary support and its scope where available; support does not establish acceptance outside that stakeholder's authority.
 
 ## Decision-ready comparison
 
@@ -29,9 +29,3 @@ Use sensitivity analysis when uncertain inputs or changed scope could alter the 
 When a decision rule is missing, offer a reasoned candidate using the stated goals, constraints, and available observations. Identify what would support proceeding, revising, or stopping and what decision remains with the owner. Use qualitative conditions where a numerical threshold lacks a defensible basis. Mark proposed thresholds, milestones, or choices as proposals rather than supplied facts or approvals. The owner should be able to assess the proposal without first designing it themselves.
 
 A recommendation may be to investigate, defer, or continue the current course when the evidence warrants it. Keep missing evidence and decisions explicit; do not fabricate costs, benefits, ROI or agreement. Follow [record discipline](record-discipline.md) for evidence, grants, and acceptance.
-
-## Source and adaptation
-
-Original paraphrase adapted from Birgit Penzenstadler, [Requirements Engineering: Business Case Analysis](https://www.slideshare.net/slideshow/requirements-engineering-business-case-analysis/78078858), slides 4, 7–17, 24, 27. Report structure and checks come from the deck; bounded elaboration, conditional comparison, candidate decision rules, and treatment of authority/unknowns are this skill's agent-work adaptations.
-
-The author's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf) identifies the teaching materials as CC BY-SA 4.0. This adaptation is provided under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). No third-party illustrations or example projects are reproduced.

@@ -14,7 +14,7 @@ Organize the process around five related elements: **activities/methods, artifac
 | Tool | What available source or tool can produce the needed evidence? |
 | Milestone | What result or decision marks sufficient progress for the present scope? |
 
-Use these questions to organize the work, without imposing compulsory headings. Define milestones as meaningful states, such as an established project scope or an accepted specification. Reaching a milestone does not prove that every preceding activity was completed. Preserve the owner's acceptance authority.
+Use these questions to organize the work, without imposing compulsory headings. Define milestones as meaningful states, such as an established project scope or an accepted specification. Reaching a milestone does not prove that every preceding activity was completed. Preserve the applicable decision authority and existing grants.
 
 ## Problem and solution orientation
 
@@ -39,14 +39,3 @@ Keep stakeholder requirements distinct from candidate designs throughout this pr
 Examine project constraints, team and domain knowledge, stakeholders, system characteristics, business circumstances, and legal context. Select relevant artifact content and dependencies, remove unnecessary elements, and adapt the remaining elements to the project. Choose supporting methods, templates, tools, roles, milestones, and change handling to suit that selection.
 
 Select content because it supports the current decision or a material dependency. Reuse adequate existing records; deepen weak content where uncertainty matters. State a consequential omission and its effect when relevant. Do not claim full AMDiRE coverage from a small requirements note or force a small task through the full framework. A document template organizes presentation; it does not establish that the underlying information is sound.
-
-## Sources and attribution
-
-Original paraphrase and operational adaptations of Birgit Penzenstadler's 2017 CECS542 Requirements Engineering teaching material:
-
-- **P:** [Process & Roles](https://www.slideshare.net/slideshow/requirements-engineering-process-roles/78078726), slides 7–13.
-- **A:** [Artifact-oriented Requirements Engineering](https://www.slideshare.net/slideshow/requirements-engineering-artifactoriented-requirements-engineering/78078838), slides 3–16.
-- **F:** [Frameworks & Standards](https://www.slideshare.net/slideshow/requirements-engineering-frameworks-standards/78078792), slides 3–7. Historical course examples, not a claim of current standards compliance.
-- **R:** [Recap](https://www.slideshare.net/slideshow/requirements-engineering-recap/78079402), slides 10–13.
-
-Penzenstadler's [course publication](https://ceur-ws.org/Vol-2857/openre1.pdf) identifies the teaching materials as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This adapted reference is provided under that license. Wording, selection, and agent-work guidance are adaptations, not quotations or claims that the course specifies this skill's contract.
