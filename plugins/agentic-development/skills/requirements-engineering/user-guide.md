@@ -1,10 +1,10 @@
 # User guide
 
-Use requirements-engineering when deciding what an engineering effort must achieve, checking whether a requirements record is usable, or maintaining it after new information. The scope is bounded owner-led work; it is not a project-management, implementation, or runtime-control system.
+Use requirements-engineering when deciding what an engineering effort must achieve, checking whether a requirements record is usable, establishing the baseline for a review against requirements, or maintaining it after new information. The scope is bounded owner-led work; it is not a project-management, implementation, or runtime-control system.
 
 ## Requests and inputs
 
-A request can begin with an unclear need: “Help us work out what needs to change.” Existing work can be supplied with “Review these requirements” or “Continue from this issue and account for the new stakeholder message.” For stakeholder validation, ask “Help us check whether this meets the users' needs.”
+A request can begin with an unclear need: “Help us work out what needs to change.” Existing work can be supplied with “Review these requirements” or “Continue from this issue and account for the new stakeholder message.” “Review this implementation against its requirements” also uses RE to recover or confirm the applicable baseline, even when it is settled; the assigned conformance checks continue in the normal verification workflow. For stakeholder validation, ask “Help us check whether this meets the users' needs.”
 
 Supply the decision or intended use when known, relevant source material, existing records, and available stakeholders. Missing information is part of the assignment, not a reason to invent a complete specification. The skill routes by the requested result and the gap in the available artifacts.
 
