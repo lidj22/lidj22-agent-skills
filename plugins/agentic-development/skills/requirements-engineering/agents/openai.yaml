@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requirements Engineering"
+  short_description: "Establish, review, and maintain bounded requirements"
+  default_prompt: "Use $requirements-engineering to establish or review the requirements for this engineering decision."
