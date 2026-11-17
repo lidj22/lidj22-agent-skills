@@ -46,12 +46,19 @@ Most basic: an RE is expected to know what requirements engineering is, and answ
 
 Knowing what "elicitation" is, however, does not translate to "performing effective, high quality elicitation."
 
+- When does this skill apply? Process (lecture 2) covers software development vs. requirements engineering.
+    - "This isn't doing what we said it would"
+    - "This didn't work as expected" -> "fix design"
+    - "I forgot to talk to this team about the feature" -> stakeholder
+
+Verification vs. validation: come up with some real world tasks that force distinction between the two.
+
 ### Agentic Development
 
 The core purpose of RE is arguably, to ensure and automate the transformation of stakeholder requirements to an implementation or product, which/whose properties can conversely be verified against the stakeholder's requirements.
 
 - Documentation. User requirements are all over the place, and in agent development usually in transcripts; how do we consolidate, categorize, assign provenance/authority/role, endorse/invalidate/question/arrange various requirements?
-- Task prompt review. How well can an agent execute a given task under a certain context? Applicable to long-context and horizon tasks, such as `/goal`, Claude `/loop`, workflow orchestration, scheduled jobs, etc.
+- Task prompt review (requirements analysis). How well can an agent execute a given task under a certain context? Applicable to long-context and horizon tasks, such as `/goal`, Claude `/loop`, workflow orchestration, scheduled jobs, etc.
 - Translate between stakeholder and developers (in agentic development, this could mean translate between the user and a `/goal` executor, for example).
     - agent -> user translation: what has the agent performed technically, and how does it relate to stakeholder specified requirements?
     - more broadly, this is to translate between non-technical (stakeholder) language and technical (developer) language.
@@ -61,3 +68,7 @@ This does not necessarily mean the RE communicates with separate agents or group
 - user <-> agent (RE + developer)
 - other developers and stakeholders <-> user <-> agent (RE) <-> other developers and stakeholders
 - user <-> orchestrator (RE) <-> development workflow
+
+Orchestration hygiene:
+
+- Which part of the RE process necessitates independent subagent?
