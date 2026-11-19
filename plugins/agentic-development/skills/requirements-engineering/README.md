@@ -15,6 +15,7 @@ To copy/paste the full structure 1-1 and do nothing further, or in any way perfo
 - Ordinary path: a path loaded into frequently by agent across most tasks. Can be further specified by "ordinary context path", "ordinary task path", etc. Otherwise, it's a "conditional" path (subject to conditions) or "exceptional" path (a rare condition).
     - SKILL.md is part of ordinary path, because it's loaded by all consumers.
     - README.md is part of conditional path, because skill consumers are not expected to read it unless they are supposed to develop an equivalent skill.
+    - A reference document providing troubleshooting guidance to an obscure Windows installation bug is an exceptional path.
 
 Ordinary path files should carry universal or high-frequency concepts, while deferring non-essential details to conditional paths for clarification.
 
@@ -30,6 +31,10 @@ When populating the skill with concepts/methods, frequently reflect on:
 - what tasks does course or other material formalize for common agentic development tasks?
 
 The course discusses "learning goals"; our skill must transform learning goals into application and reliable execution.
+
+### "Before AI" Research
+
+This takes a note out of Pocock's leading word/established concepts. Few concepts are new and need re-inventing. For any *recently coined* term (or term coined by an AI agent), find the pre-AI era established term, framework, or discipline that governs the concept.
 
 ## Evaluation
 

@@ -17,6 +17,8 @@ Processes
 - Verification: did i correctly write down what these people say/am i building the system right
 - Validation: (to stakeholders) is this what you really need/am i building the right system
 
+> It would be potentially helpful if an agent *states* what process it is undergoing: "I will now elicit these requirements" "I will analyze new requirements against discovered requirements", either in terms of evaluation, or to diagnose what the agent is doing during runtime by an engaged stakeholder (which can be another agent or orchestrator).
+
 Requirement types:
 
 - Quality requirement
@@ -64,3 +66,15 @@ Q: What happens when going back from design to RE?
 2. design of system (have subsystems)
 3. RE of a subsystem
 4. ... (repeat)
+
+### Generic Process Model
+
+Model for defining the RE process (and other engineering processes).
+
+- Roles & responsibilities
+- Tools
+- Artifacts
+- Activities & methods
+- Milestones
+
+Could be a conditional path, better off as exercises, or as a standardized protocol, e.g. when an agent responds with a report following the GPM format: these are the roles, these are the tools, etc.
