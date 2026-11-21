@@ -1,0 +1,25 @@
+[project]
+name = "crucible"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lidj22", email = "36579697+lidj22@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.optional-dependencies]
+openai = [
+    "openai-codex>=0.171.0",
+]
+claude = [
+    "claude-agent-sdk>=0.2.187",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.27,<0.12.0"]
+build-backend = "uv_build"
+
+[project.scripts]
+eval = "crucible.command:run_eval"
